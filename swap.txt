@@ -16,3 +16,6 @@ let n_inicial = Number(prompt('Escolha o número que você deseja que apareça n
 
 
  fr_1 = alert('Agora pegue sua calculadora...'), n_aleatorio = Number(alert('Quando eu pedir para somar'))
+
+
+

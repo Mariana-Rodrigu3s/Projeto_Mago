@@ -37,7 +37,7 @@
     <script>
         // Função invocada no evento do onclick.
         function mago() {
-            let n_inicial = Number(prompt('Passo 1 - Qual número você quer que apareça no final?'))
+            let n_inicial = Number(prompt('Passo 1 ✨ - Antes de tudo, escolha em silêncio o número que desejas ver surgir ao final do feitiço…'))
 
             
 
@@ -46,8 +46,26 @@
 
 
             let soma_necessaria  = Number(n_inicial) * 2;
-            alert('Certo, agora uma dica: Na hora que disser para somar vc irá somar por '+soma_necessaria)
-            alert('Agora você irá escolher qualquer número aleatório')
+            alert('Muito bem… agora escute com atenção: quando eu ordenar a soma, deverás somar pelo número que os espíritos indicarem que é: '+soma_necessaria);
+            let n_aleatorio = alert('Passo 2 ✨ - Agora, sem que ninguém mais saiba, escolha um número qualquer… deixa que o acaso e os espíritos guiem tua decisão.”');
+
+            let multi_necessaria = Number(n_aleatorio) * 2;
+
+
+            alert('Passo 3 ✨ - Agora, fortaleça o encanto: multiplique esse número por dois (×2).');
+
+            let multisoma_necessaria = Number(multi_necessaria) + (soma_necessaria);
+
+            alert('Passo 4 ✨ - O caldeirão borbulha… some ao resultado da multiplicação o número que eu te revelar que é: '+soma_necessaria);
+
+            let divisao_necessaria = Number(multisoma_necessaria) / 2;
+            alert('Passo 5 ✨ - Equilibre a magia: pegue o resultado da soma e divida-o por dois.')
+
+            let subtra_necessaria = Number(divisao_necessaria) - (n_aleatorio)
+            alert('Passo 6 ✨ - Para selar o ritual, subtraia do valor da divisão pelo número aleatório que escolheste na calculadora.')
+
+            alert('As névoas se dissipam… e o número que surge diante de ti é: '+n_inicial)
+            
         };
 
         
