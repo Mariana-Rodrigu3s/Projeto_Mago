@@ -1,0 +1,18 @@
+- Fazer CSS simples;
+container
+sub
+onclick
+h1
+p
+
+
+
+
+
+
+
+
+let n_inicial = Number(prompt('Escolha o número que você deseja que apareça no final: ')), n_aleatorio = Number(prompt('Agora escolha um número aleatório'))
+
+
+ fr_1 = alert('Agora pegue sua calculadora...'), n_aleatorio = Number(alert('Quando eu pedir para somar'))
