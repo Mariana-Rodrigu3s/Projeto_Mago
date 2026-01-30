@@ -1,0 +1,28 @@
+Joguinho dos números
+
+Sequência:
+Multiplicação
+Adição
+Divisão
+Subtração
+
+
+
+Primeiro você tem que escolher o número que você quer que dê no final
+Depois você tem que escolher um número aleatório
+Agora pegue esse número aleatório e multiplique por 2
+E o resultado da multiplicação você irá somar com o dobro de 12
+Nisso com o resultado da adição você irá dividir o resultado por 2
+E para finalizar você irá subtrair o resultado da divisão com o número aleatório
+por fim vai dar o número que você escolheu para dar no final.
+
+exemplo:
+Número final: 12
+Número Aleatório: 9
+9x2 = 18
+18 + 24 = 42
+42 * 2 = 21
+21 - 9 = 12
+
+
+
