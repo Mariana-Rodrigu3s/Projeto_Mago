@@ -3,30 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Mago</title>
+    <title>A Bruxa Que Nunca Erra 🧙‍♀️✨</title>
 
     <style>
         body{
-            background-color: rgba(108, 167, 255, 0.89);
+            background: #000000;
+            background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(54, 15, 153, 1) 35%, rgba(190, 143, 255, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
+        
+
         .container{
-            background-color: rgb(169, 196, 255);
+            
+            background-color: #764abd;
+            
+            border-radius: 50px;
+            width: 700px;
+            height: 300px;
+            padding: 20px;
+            box-shadow: 0px 4px 8px black;
+            
+            
+        }
+
+        button{
+            
+            
+            border-radius: 15px;
+            text-align: center;
+            background-color: #3a1285;
+            box-shadow: 0px 4px 5px black;
+            font-size: medium;
+            color: azure;
+            width: 100%;
+            height: 20%;
+           
+            
+            
+            
+        }
+
+        
+
+        h1{
+            
+            text-align: center;
+            padding: 5px;
+            font-family: Engravers MT;
+        }
+
+        p{
+            text-align: center;
+            height: 30px;
         }
 
     </style>
 </head>
 <body>
+    
+
     <div class="container">
 
-        <h1>O mago</h1>
+        <h1>A Bruxa Que Nunca Erra ✨🕯</h1>
 
-        <p>Clique no botao abaixo</p>
+        <p>O destino já se moveu, os sinais foram lançados e não há mais como ignorá-los. Clique no botão abaixo e permita que a magia revele aquilo que o tempo escondeu.</p>
 
-        <button onclick="mago()">Iniciar jogo</button>
+        <button class="botao" onclick="mago()">Iniciar ritual 🔮</button>
+        <button class="botao" onclick="sair()">Sair 🪔</button>
+
+        <p>O futuro é um livro aberto… se você tiver coragem de ler. 🎃</p>
         
 
-        <p>kk</p>
+        
 
 
 
@@ -47,26 +99,36 @@
 
             let soma_necessaria  = Number(n_inicial) * 2;
             alert('Muito bem… agora escute com atenção: quando eu ordenar a soma, deverás somar pelo número que os espíritos indicarem que é: '+soma_necessaria);
-            let n_aleatorio = alert('Passo 2 ✨ - Agora, sem que ninguém mais saiba, escolha um número qualquer… deixa que o acaso e os espíritos guiem tua decisão.”');
+            alert('Pegue sua calculadora e jogue comigo — até os números obedecem à minha magia')
+            let n_aleatorio = alert('Passo 2 ✨ - Agora, sem que ninguém mais saiba, escolha um número qualquer e digite na calculadora... deixa que o acaso e os espíritos guiem tua decisão.”');
 
-            let multi_necessaria = Number(n_aleatorio) * 2;
+            
 
 
             alert('Passo 3 ✨ - Agora, fortaleça o encanto: multiplique esse número por dois (×2).');
-
-            let multisoma_necessaria = Number(multi_necessaria) + (soma_necessaria);
+            let multi_necessaria = Number(n_aleatorio) * 2;
+            
 
             alert('Passo 4 ✨ - O caldeirão borbulha… some ao resultado da multiplicação o número que eu te revelar que é: '+soma_necessaria);
+            let multisoma_necessaria = Number(multi_necessaria) + (soma_necessaria);
 
-            let divisao_necessaria = Number(multisoma_necessaria) / 2;
+            
             alert('Passo 5 ✨ - Equilibre a magia: pegue o resultado da soma e divida-o por dois.')
+            let divisao_necessaria = Number(multisoma_necessaria) / 2;
 
-            let subtra_necessaria = Number(divisao_necessaria) - (n_aleatorio)
+
+            
             alert('Passo 6 ✨ - Para selar o ritual, subtraia do valor da divisão pelo número aleatório que escolheste na calculadora.')
+            let subtra_necessaria = Number(divisao_necessaria) - (n_aleatorio)
+
 
             alert('As névoas se dissipam… e o número que surge diante de ti é: '+n_inicial)
             
         };
+
+        function sair(){
+            alert('❌As portas estão seladas… vc não pode sair.')
+        }
 
         
         
